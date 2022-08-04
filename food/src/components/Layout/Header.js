@@ -1,5 +1,7 @@
 import { Fragment} from 'react';
 
+import vagaImage from '../../assets/vaga.jpg';
+
 const Header = props => {
     return <Fragment>
         <header>
@@ -7,7 +9,7 @@ const Header = props => {
             <button>Cart</button>
         </header>
         <div>
-            <img />
+            <img src={vagaImage} alt='musashi eating'/>
         </div>
     </Fragment>
 };
