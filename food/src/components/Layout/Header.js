@@ -4,14 +4,16 @@ import vagaImage from '../../assets/vaga.jpg';
 import classes from './Header.module.css';
 
 const Header = props => {
-    return <Fragment>
-        <header className ={classes.header}>
-            <h1>ReactMeals</h1>
-            <HeaderCartButton />
-        </header>
-        <div className={classes['main-image']}>
-            <img src={vagaImage} alt='musashi eating'/>
-        </div>
-    </Fragment>
+    return(
+        <Fragment>
+            <header>
+                <h2></h2>
+                <HeaderCartButton/>
+            </header>
+            <div>
+                <img></img>
+            </div>
+        </Fragment>
+    )
 };
 export default Header;
